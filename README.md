@@ -25,5 +25,6 @@ As I progress through Assignments 3, 4, and 5, I will be adding:
 ## 📷 Screenshots
 Visual evidence of completed work as I progress through the assignment
 
-<img src="assets/SportsPro1.png>
-<img src="assets/SportsPro2.png>
+<img width="1878" height="1099" alt="SportsPro1" src="https://github.com/user-attachments/assets/772ce741-ee3c-4f99-8bcf-87413d1a9bd0" />
+
+<img width="1879" height="1016" alt="SportsPro2" src="https://github.com/user-attachments/assets/764d68b5-dedc-4a2d-9746-2bd4b5213dff" />
