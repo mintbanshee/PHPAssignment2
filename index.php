@@ -7,7 +7,7 @@ require __DIR__ . '/Views/header.php';
 <div class="text-center mb-5">
     <h1 class="fw-bold">SportsPro Technical Support</h1>
     <p class="lead text-muted">
-        Product management and technical support system
+        Sports management software for the sports enthusiast <!-- changed to match assignment sheet --> 
     </p>
 </div>
 
