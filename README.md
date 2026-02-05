@@ -8,6 +8,8 @@
 ## ✨ AI Use
 **Documentation:** Co-authored this README with Artemis (Gemini) to organize project goals and instructor notes.
 
+**Syntax & Logic Mentorship:** Used for troubleshooting pathing issues, verifying SQL syntax, and mapping out logical flows (pseudo-code) to ensure professional structure and UI/UX consistency while maintaining a "Do not give me coding" rule.
+
 ## 🌿 Project Goals
 This is a PHP/MySQL application for tracking technical support incidents. 
 
