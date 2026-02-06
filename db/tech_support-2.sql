@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Feb 01, 2026 at 02:27 AM
+-- Generation Time: Feb 06, 2026 at 02:59 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -57,6 +57,7 @@ CREATE TABLE `countries` (
 
 INSERT INTO `countries` (`countryCode`, `countryName`) VALUES
 ('CA', 'Canada'),
+('JP', 'Japan'),
 ('US', 'United States');
 
 -- --------------------------------------------------------
@@ -85,7 +86,9 @@ CREATE TABLE `customers` (
 
 INSERT INTO `customers` (`customerID`, `firstName`, `lastName`, `address`, `city`, `state`, `postalCode`, `countryCode`, `phone`, `email`, `passwordHash`) VALUES
 (1, 'Alex', 'Morgan', '10 King St', 'Toronto', 'ON', 'M5H 1A1', 'CA', '416-111-2222', 'alex@example.com', NULL),
-(2, 'Jamie', 'Lee', '200 Main Ave', 'Buffalo', 'NY', '14201', 'US', '716-333-4444', 'jamie@example.com', NULL);
+(2, 'Jamie', 'Lee', '200 Main Ave', 'Buffalo', 'NY', '14201', 'US', '716-333-4444', 'jamie@example.com', NULL),
+(5, 'Usagi', 'Tsukino', '134 Azabu-Juban', 'Minato-ku', 'Tokyo', 'U3A 6I0', 'JP', '433-111-3377', 'moonprincess@sailorsenshi.com', NULL),
+(6, 'Joan', 'Loon', '232 Dell Ave', 'Chelmsford', 'ON', 'P0M 1L0', 'CA', '705-333-4455', 'loonpainter@email.com', NULL);
 
 -- --------------------------------------------------------
 
@@ -246,7 +249,7 @@ ALTER TABLE `administrators`
 -- AUTO_INCREMENT for table `customers`
 --
 ALTER TABLE `customers`
-  MODIFY `customerID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `customerID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `incidents`
@@ -264,7 +267,7 @@ ALTER TABLE `registrations`
 -- AUTO_INCREMENT for table `technicians`
 --
 ALTER TABLE `technicians`
-  MODIFY `techID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `techID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Constraints for dumped tables
