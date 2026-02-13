@@ -3,12 +3,14 @@
 **Developer:** MintBanshee
 **Course:** PHP and MySQL Development Project 
 **Status:**
-  - **Phase 1:** Assignment 2 (Initial Modules) 
+  - **Phase 3:** Assignment 4 (Login and Register Product) 
 
 ## ✨ AI Use
 **Documentation:** Co-authored this README with Artemis (Gemini) to organize project goals and instructor notes.
 
 **Syntax & Logic Mentorship:** Used for troubleshooting pathing issues, verifying SQL syntax, and mapping out logical flows (pseudo-code) to ensure professional structure and UI/UX consistency while maintaining a "Do not give me coding" rule.
+
+**Hey Artemis! I'd like to make it so THIS happens for user flow but I don't know how, can you give me directions without giving me code please?** 
 
 ## 🌿 Project Goals
 This is a PHP/MySQL application for tracking technical support incidents. 
@@ -17,20 +19,19 @@ This is a PHP/MySQL application for tracking technical support incidents.
 - integrated search customers feature on to customers manager to reduce redunancy
 - added back button to the additional search page accessed from the view/update customer page for ease of use
 - manually seeded Japan the database to allow Japan (JP) as a country and added Japan to the dropdown menu
+- added Register Another Product and Cancel button for better user experience
+- added success and error alerts for better user experience including adding a check for if product is already registered 
 
-### Previous Focus (Assignment 2)
+### Previous Focus (Assignment 2 & 3)
 - Initialize the tech_support database. 
 - Create the Product Manager and Technician Manager modules. 
 - Build the core MVC scaffold (Model-View-Controller).
-
-### Current Focus (Assignment 3)
 - ensure products manager is fully functional
 - ensure technicians manager is fully functional
 - ensure customers manager is fully functional
 
 ### What is to Come
-As I progress through Assignments I will be adding:
-- User authentication and secure logins. 
+As I progress through Assignments I will be adding: 
 - Object-Oriented Programming (OOP) refactoring. 
 - Enhanced data validation and secure HTTPS connections.
 
@@ -62,6 +63,14 @@ Visual evidence of completed work as I progress through the assignment
 <img width="1720" height="934" alt="UpdateSuccessful" src="https://github.com/user-attachments/assets/8bb1192a-100e-4d0b-b4bb-2512504a9780" />
 
 <img width="1713" height="844" alt="UpdatedCustomer" src="https://github.com/user-attachments/assets/8a281887-007d-4c25-babb-d8de15b315c2" />
+
+<img width="739" height="468" alt="Login" src="https://github.com/user-attachments/assets/3130100d-8330-4c07-88a5-abc7927d336a" />
+
+<img width="1155" height="623" alt="RegisterProduct" src="https://github.com/user-attachments/assets/b777829f-fb92-4292-aded-02bd805457cb" />
+
+<img width="1155" height="653" alt="RegisterSuccess" src="https://github.com/user-attachments/assets/ad95388d-a589-4164-a79e-8647e624a5eb" />
+
+<img width="1153" height="645" alt="RegistrationExists" src="https://github.com/user-attachments/assets/9dec2b4f-f74c-4cc9-9e01-cc9a257f11ca" />
 
 
 
